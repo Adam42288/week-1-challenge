@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* CSS styling for the header section of the page */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,7 +17,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+.seo {
     color: #d9dcd6;
     font-size: 48px;
     display: inline;
@@ -51,6 +52,8 @@ p {
     font-size: 16px;
 }
 
+/* CSS Styling of background image and main body of content */ 
+
 body {
     background-color: #d9dcd6;
 }
@@ -63,6 +66,7 @@ body {
     background-position: center;
 }
 
+/* Making the images from the main content float either left or right of their containter */ 
 .float-left {
     float: left;
     margin-right: 25px;
@@ -72,6 +76,8 @@ body {
     float: right;
     margin-left: 25px;
 }
+
+/* CSS Styling of 3 main content section */ 
 
 .content {
     width: 75%;
@@ -85,8 +91,6 @@ body {
     font-size: 36px;  
 }
 
-
-
 .content-body {
     margin-bottom: 20px;
     padding: 50px;
@@ -99,6 +103,8 @@ body {
 .content img {
     max-height: 200px;
 }
+
+/* CSS Styling of Benefits section on right side of page */ 
 
 .benefits {
     margin-right: 20px;
@@ -127,6 +133,7 @@ body {
     max-width: 150px;
 }
 
+/* CSS Styling of Footer at the bottom of the page, foot is hidden per mockup but keeping just in case */
 
 footer {
     padding: 30px;
